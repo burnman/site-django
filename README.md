@@ -6,3 +6,6 @@
 
   python manage.py runserver
 
+### 同步数据库
+
+  python manage.py syncdb
