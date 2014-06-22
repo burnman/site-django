@@ -9,3 +9,7 @@
 ### 同步数据库
 
   python manage.py syncdb
+
+### To-Do-List
+1. 数据库中文编码
+2.
