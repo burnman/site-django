@@ -1,3 +1,32 @@
+/*自定义样式*/
+
 * {
   word-wrap:break-word;
+}
+
+body, button, input, select, textarea {
+    font-family: "Classic Grotesque W01", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+    font-size: 16px;
+    background-color: #f8f8f5;
+}
+
+.post-content {
+  text-align: left;
+  color: #5c5c5c;
+  margin: 20px 0 15px;
+  font: normal 16px/1.70 "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  text-indent: 32px;
+}
+
+.post-content p {
+  margin-bottom: 25px;
+}
+
+
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 730px;
+  }
+
 }
